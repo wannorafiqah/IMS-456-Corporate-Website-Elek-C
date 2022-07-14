@@ -1,0 +1,78 @@
+/*CSS Layout*/
+
+/* Main Background */
+.page {background-color: black;
+       width: 80%;
+       margin: auto;
+       padding: 5px;}
+
+/* Header Section */
+.main-header {background-color: pink;}
+
+.social-sites li {display: inline;
+                 position: relative;
+                 left: 1000px;
+                 top: -30px;}
+
+/* Main + Sidebar Background */
+.container {background-color: white; 
+            padding: 0px;}
+		
+
+/* Main Section */
+.main {background-color: lightgoldenrodyellow;
+       width: 70%;
+       float: left;}
+	 
+
+/* Sidebar Section */
+.sidebar {background-color:#F5F5DC	;	
+          width: 30%;
+          float: right;}
+
+/* Footer Section */
+.main-footer {background-color: lightpink;
+              clear: both;}
+
+/* Position Static */
+div.static {position: static; 
+            border: 3px solid black}
+
+/* Position Relative */
+div.relative {position: relative; left: 30px;
+              border: 3px solid black;}
+
+/* Position Fixed */
+div.fixed {position: fixed;  
+           bottom: 0;
+           right: 0;
+           width: 300px;
+           border: 3px solid black;}
+
+/*Position Absolute*/
+div.relative-absolute {position: relative;
+                       width: 400px;
+                       height: 200px;
+                       border: 3px solid black;}
+
+div.absolute {position: absolute;
+              top: 60px;
+              right: 0;
+              width: 200px;
+              height: 100px;
+              border: 3px solid black;}
+
+/* Position Sticky */
+div.sticky {position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            padding: 5px;
+            background-color: #E2A76F;
+            border: 2px solid black;}
+			
+			 h1 {font-family: "Trirong", serif;}
+			 h1{text-shadow: 2px 2px 5px yellow;}
+
+#span01 {color:blue;}
+#span02 {color:blue;}
+#span03 {color:blue;}
